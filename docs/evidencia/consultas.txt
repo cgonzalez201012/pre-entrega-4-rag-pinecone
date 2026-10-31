@@ -1,0 +1,39 @@
+
+Consulta: '¿Cuántos miembros hacen falta para que sesione el Comité de Gobierno de Datos?'  (modo hibrido)
+
+[1] 02-roles-y-responsabilidades.md, pagina 1, seccion: 1. Propósito / 2. Comité de Gobierno de Datos / 3. Líder de Gobierno de Datos  (roles, GD-ROL-001)
+    # Roles y Responsabilidades de Gobierno de Datos  **Código:** GD-ROL-001 · **Versión:** 1.3 · **Vigencia:** desde el 1 de marzo de 2026 · **Propietario:** Líder de Gobierno de Datos de Mercado Austral...
+
+[2] 12-roles-equipo-de-gobierno-de-datos.md, pagina 1, seccion: 1. Propósito / 2. Composición del equipo / 3. Analista de Calidad / ...  (roles, GD-ROL-002)
+    # Puestos y Funciones del Equipo de Gobierno de Datos  **Código:** GD-ROL-002 · **Versión:** 1.1 · **Vigencia:** desde el 1 de marzo de 2026 · **Propietario:** Líder de Gobierno de Datos de Mercado Au...
+
+[3] 05-politica-seguridad-y-acceso.md, pagina 1, seccion: 7. Revisión trimestral de accesos / 8. Accesos privilegiados / 9. Registros de acceso / ...  (politica, GD-POL-002)
+    ## 7. Revisión trimestral de accesos  Cada trimestre, el Data Custodian entrega a cada Data Owner la lista de las personas que tienen acceso a su dominio. El Data Owner debe confirmar o rechazar cada ...
+
+[4] 04-glosario-catalogo-y-clasificacion.md, pagina 1, seccion: 5. Retención de la información / 6. Indicadores del programa de gobierno de datos / 7. Historial de versiones  (glosario, GD-GLO-001)
+    ## 5. Retención de la información  Los plazos de conservación definidos por la compañía son los siguientes. Los datos transaccionales de ventas se conservan durante 10 años. Los datos de clientes de f...
+
+[5] 08-procedimiento-gestion-de-incidentes.pdf, pagina 3  (procedimiento, GD-PRO-002)
+    5. Informe post-incidente Dentro de los 3 días hábiles posteriores al cierre de un incidente crítico, el Data Steward entrega un informe post-incidente con la cronología, el impacto, la causa raíz y l...
+
+Consulta: '¿Qué es Depo360?'  (modo bm25)
+
+[1] 13-glosario-sistemas-y-siglas.md, pagina 1, seccion: 1. Sistemas corporativos  (glosario, GD-GLO-002)
+    # Glosario de Sistemas y Siglas Corporativas  **Código:** GD-GLO-002 · **Versión:** 1.0 · **Vigencia:** desde el 1 de marzo de 2026 · **Propietario:** Líder de Gobierno de Datos de Mercado Austral S.A...
+
+Consulta: 'plazo para resolver un incidente'  (modo hibrido, categoria=politica)
+
+[1] 01-politica-calidad-de-datos.md, pagina 1, seccion: 4. Clasificación y resolución de incidentes / 5. Plan de remediación / 6. Excepciones / ...  (politica, GD-POL-001)
+    ## 4. Clasificación y resolución de incidentes  Todo incumplimiento detectado se registra como incidente de calidad y se clasifica por severidad. La severidad determina el plazo máximo de resolución, ...
+
+[2] 01-politica-calidad-de-datos.md, pagina 1, seccion: 8. Historial de versiones  (politica, GD-POL-001)
+    ## 8. Historial de versiones  - **2.1 (1 de marzo de 2026):** se incorporó la dimensión de oportunidad y se redujo a 4 horas hábiles el plazo de los incidentes críticos, que antes era de 8 horas hábil...
+
+[3] 06-politica-privacidad-datos-personales.pdf, pagina 2  (politica, GD-POL-003)
+    3. Consentimiento Los datos de los clientes se recolectan solo con su consentimiento libre, expreso e informado. En la inscripción al programa de fidelización Club Austral, la casilla de aceptación de...
+
+[4] 05-politica-seguridad-y-acceso.md, pagina 1, seccion: 3. Solicitud y aprobación de accesos / 4. Autenticación / 5. Cuentas inactivas y bloqueo de sesión / ...  (politica, GD-POL-002)
+    ## 3. Solicitud y aprobación de accesos  Todo acceso se pide con el formulario FA-07, llamado Solicitud de acceso a datos, que se presenta a través de la Mesa de Ayuda de TI. Lo completa el jefe direc...
+
+[5] 06-politica-privacidad-datos-personales.pdf, pagina 3  (politica, GD-POL-003)
+    5. Terceros que reciben datos Los datos personales solo se comparten con terceros cuando es necesario para prestar un servicio, y siempre con un contrato que incluya una cláusula de confidencialidad y...

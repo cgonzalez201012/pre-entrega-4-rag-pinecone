@@ -1,0 +1,12 @@
+Hibrido: pesos BM25/vectorial = 0.5/0.5, candidatos por recuperador = 5
+hibrido             1.00            0.34      0.88
+Hibrido: pesos BM25/vectorial = 0.4/0.6, candidatos por recuperador = 5
+hibrido             1.00            0.40      0.88
+Hibrido: pesos BM25/vectorial = 0.3/0.7, candidatos por recuperador = 5
+hibrido             1.00            0.40      0.88
+Hibrido: pesos BM25/vectorial = 0.5/0.5, candidatos por recuperador = 10
+hibrido             1.00            0.39      0.92
+Hibrido: pesos BM25/vectorial = 0.4/0.6, candidatos por recuperador = 10
+hibrido             0.94            0.40      0.89
+Hibrido: pesos BM25/vectorial = 0.3/0.7, candidatos por recuperador = 10
+hibrido             0.94            0.40      0.89

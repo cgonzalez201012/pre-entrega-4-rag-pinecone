@@ -1,0 +1,30 @@
+
+DRY RUN: no se uso ninguna clave ni se subio nada a Pinecone.
+  Archivos .............. 13
+  Fragmentos ............ 36
+  Tokens por fragmento .. min 87 / prom 435.7 / max 595
+  Medicion de tokens .... tiktoken/cl100k_base
+    - 01-politica-calidad-de-datos.md: 4 fragmentos, categoria 'politica', codigo GD-POL-001
+    - 02-roles-y-responsabilidades.md: 3 fragmentos, categoria 'roles', codigo GD-ROL-001
+    - 03-procedimiento-maestro-de-articulos.md: 4 fragmentos, categoria 'procedimiento', codigo GD-PRO-003
+    - 04-glosario-catalogo-y-clasificacion.md: 3 fragmentos, categoria 'glosario', codigo GD-GLO-001
+    - 05-politica-seguridad-y-acceso.md: 3 fragmentos, categoria 'politica', codigo GD-POL-002
+    - 06-politica-privacidad-datos-personales.pdf: 3 fragmentos, categoria 'politica', codigo GD-POL-003
+    - 07-procedimiento-maestro-de-proveedores.md: 3 fragmentos, categoria 'procedimiento', codigo GD-PRO-001
+    - 08-procedimiento-gestion-de-incidentes.pdf: 3 fragmentos, categoria 'procedimiento', codigo GD-PRO-002
+    - 09-procedimiento-clientes-de-fidelizacion.md: 2 fragmentos, categoria 'procedimiento', codigo GD-PRO-004
+    - 10-procedimiento-cambios-en-indicadores.md: 2 fragmentos, categoria 'procedimiento', codigo GD-PRO-005
+    - 11-procedimiento-maestro-de-sucursales.md: 2 fragmentos, categoria 'procedimiento', codigo GD-PRO-006
+    - 12-roles-equipo-de-gobierno-de-datos.md: 2 fragmentos, categoria 'roles', codigo GD-ROL-002
+    - 13-glosario-sistemas-y-siglas.md: 2 fragmentos, categoria 'glosario', codigo GD-GLO-002
+  Metadata del primer fragmento (lo que se guarda junto al vector):
+      chunk_id: '01-politica-calidad-de-datos#b6d02b695cfaf73d'
+      documento_id: '01-politica-calidad-de-datos'
+      fuente: '01-politica-calidad-de-datos.md'
+      pagina: 1
+      categoria: 'politica'
+      codigo: 'GD-POL-001'
+      seccion: '1. Objetivo y alcance'
+      chunk_index: 0
+      tokens: 301
+      text: '# Política de Calidad de Datos\n\n**Código:** GD-POL-001 · **Versión:** 2.1 · **Vi...'

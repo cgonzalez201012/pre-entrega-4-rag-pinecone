@@ -1,0 +1,163 @@
+
+EVALUACION DEL RECUPERADOR (16 preguntas, k = 5)
+Hibrido: pesos BM25/vectorial = 0.5/0.5, candidatos por recuperador = 10
+----------------------------------------------------------------
+Modo            Recall@5     Precision@5       MRR
+bm25                0.81            0.26      0.78
+vectorial           1.00            0.40      0.92
+hibrido             1.00            0.39      0.92
+----------------------------------------------------------------
+
+[bm25]
+  1. ¿Qué es Depo360? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 13-glosario-sistemas-y-siglas
+  2. ¿Para qué se usa el formulario FA-07? [exacta]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 05-politica-seguridad-y-acceso, 04-glosario-catalogo-y-clasificacion, 02-roles-y-responsabilidades, 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores
+  3. ¿Qué función cumple Calidata? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 13-glosario-sistemas-y-siglas, 07-procedimiento-maestro-de-proveedores, 05-politica-seguridad-y-acceso, 02-roles-y-responsabilidades
+  4. ¿Qué establece el procedimiento GD-PRO-006? [exacta]
+     esperado: 11-procedimiento-maestro-de-sucursales -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 11-procedimiento-maestro-de-sucursales, 06-politica-privacidad-datos-personales, 08-procedimiento-gestion-de-incidentes, 07-procedimiento-maestro-de-proveedores, 03-procedimiento-maestro-de-articulos
+  5. ¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU? [mixta]
+     esperado: 07-procedimiento-maestro-de-proveedores -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 05-politica-seguridad-y-acceso, 09-procedimiento-clientes-de-fidelizacion
+  6. ¿Cuál es el plazo para responder un pedido de supresión de datos personales? [mixta]
+     esperado: 06-politica-privacidad-datos-personales -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 06-politica-privacidad-datos-personales, 06-politica-privacidad-datos-personales, 09-procedimiento-clientes-de-fidelizacion, 06-politica-privacidad-datos-personales, 05-politica-seguridad-y-acceso
+  7. ¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico? [mixta]
+     esperado: 10-procedimiento-cambios-en-indicadores -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 10-procedimiento-cambios-en-indicadores, 10-procedimiento-cambios-en-indicadores, 06-politica-privacidad-datos-personales, 02-roles-y-responsabilidades, 09-procedimiento-clientes-de-fidelizacion
+  8. ¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo? [mixta]
+     esperado: 09-procedimiento-clientes-de-fidelizacion -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 09-procedimiento-clientes-de-fidelizacion, 07-procedimiento-maestro-de-proveedores, 09-procedimiento-clientes-de-fidelizacion, 06-politica-privacidad-datos-personales, 03-procedimiento-maestro-de-articulos
+  9. ¿Cuál es el plazo máximo para resolver un incidente de severidad crítica? [mixta]
+     esperado: 01-politica-calidad-de-datos -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 01-politica-calidad-de-datos, 02-roles-y-responsabilidades, 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes, 02-roles-y-responsabilidades
+  10. ¿Cuánto dura el ciclo completo del alta de un artículo de marca propia? [mixta]
+     esperado: 03-procedimiento-maestro-de-articulos -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores, 02-roles-y-responsabilidades
+  11. ¿Durante cuántos años se conservan los datos transaccionales de ventas? [mixta]
+     esperado: 04-glosario-catalogo-y-clasificacion -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 04-glosario-catalogo-y-clasificacion, 01-politica-calidad-de-datos, 13-glosario-sistemas-y-siglas, 05-politica-seguridad-y-acceso, 02-roles-y-responsabilidades
+  12. ¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola? [parafraseada]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 2)  precision 0.20
+     recuperados: 07-procedimiento-maestro-de-proveedores, 05-politica-seguridad-y-acceso, 09-procedimiento-clientes-de-fidelizacion, 13-glosario-sistemas-y-siglas, 08-procedimiento-gestion-de-incidentes
+  13. Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles? [parafraseada]
+     esperado: 06-politica-privacidad-datos-personales -> FALLA  precision 0.00
+     recuperados: 01-politica-calidad-de-datos, 04-glosario-catalogo-y-clasificacion, 13-glosario-sistemas-y-siglas, 08-procedimiento-gestion-de-incidentes, 09-procedimiento-clientes-de-fidelizacion
+  14. ¿Qué documento hay que entregar después de resolver una falla muy grave? [parafraseada]
+     esperado: 08-procedimiento-gestion-de-incidentes -> FALLA  precision 0.00
+     recuperados: 06-politica-privacidad-datos-personales, 02-roles-y-responsabilidades, 06-politica-privacidad-datos-personales, 03-procedimiento-maestro-de-articulos, 05-politica-seguridad-y-acceso
+  15. ¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo? [parafraseada]
+     esperado: 11-procedimiento-maestro-de-sucursales -> FALLA  precision 0.00
+     recuperados: 08-procedimiento-gestion-de-incidentes, 03-procedimiento-maestro-de-articulos, 01-politica-calidad-de-datos, 07-procedimiento-maestro-de-proveedores, 05-politica-seguridad-y-acceso
+  16. ¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir? [parafraseada]
+     esperado: 02-roles-y-responsabilidades -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 02-roles-y-responsabilidades, 05-politica-seguridad-y-acceso, 09-procedimiento-clientes-de-fidelizacion, 06-politica-privacidad-datos-personales, 07-procedimiento-maestro-de-proveedores
+
+[vectorial]
+  1. ¿Qué es Depo360? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 13-glosario-sistemas-y-siglas, 03-procedimiento-maestro-de-articulos, 11-procedimiento-maestro-de-sucursales, 06-politica-privacidad-datos-personales, 13-glosario-sistemas-y-siglas
+  2. ¿Para qué se usa el formulario FA-07? [exacta]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 05-politica-seguridad-y-acceso, 03-procedimiento-maestro-de-articulos, 09-procedimiento-clientes-de-fidelizacion, 07-procedimiento-maestro-de-proveedores, 05-politica-seguridad-y-acceso
+  3. ¿Qué función cumple Calidata? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 5)  precision 0.20
+     recuperados: 04-glosario-catalogo-y-clasificacion, 01-politica-calidad-de-datos, 01-politica-calidad-de-datos, 08-procedimiento-gestion-de-incidentes, 13-glosario-sistemas-y-siglas
+  4. ¿Qué establece el procedimiento GD-PRO-006? [exacta]
+     esperado: 11-procedimiento-maestro-de-sucursales -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 11-procedimiento-maestro-de-sucursales, 08-procedimiento-gestion-de-incidentes, 03-procedimiento-maestro-de-articulos, 09-procedimiento-clientes-de-fidelizacion, 10-procedimiento-cambios-en-indicadores
+  5. ¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU? [mixta]
+     esperado: 07-procedimiento-maestro-de-proveedores -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 10-procedimiento-cambios-en-indicadores, 11-procedimiento-maestro-de-sucursales
+  6. ¿Cuál es el plazo para responder un pedido de supresión de datos personales? [mixta]
+     esperado: 06-politica-privacidad-datos-personales -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 06-politica-privacidad-datos-personales, 06-politica-privacidad-datos-personales, 01-politica-calidad-de-datos, 04-glosario-catalogo-y-clasificacion, 05-politica-seguridad-y-acceso
+  7. ¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico? [mixta]
+     esperado: 10-procedimiento-cambios-en-indicadores -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 10-procedimiento-cambios-en-indicadores, 10-procedimiento-cambios-en-indicadores, 11-procedimiento-maestro-de-sucursales, 01-politica-calidad-de-datos, 08-procedimiento-gestion-de-incidentes
+  8. ¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo? [mixta]
+     esperado: 09-procedimiento-clientes-de-fidelizacion -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 09-procedimiento-clientes-de-fidelizacion, 06-politica-privacidad-datos-personales, 09-procedimiento-clientes-de-fidelizacion, 07-procedimiento-maestro-de-proveedores, 06-politica-privacidad-datos-personales
+  9. ¿Cuál es el plazo máximo para resolver un incidente de severidad crítica? [mixta]
+     esperado: 01-politica-calidad-de-datos -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 01-politica-calidad-de-datos, 01-politica-calidad-de-datos, 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes
+  10. ¿Cuánto dura el ciclo completo del alta de un artículo de marca propia? [mixta]
+     esperado: 03-procedimiento-maestro-de-articulos -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores
+  11. ¿Durante cuántos años se conservan los datos transaccionales de ventas? [mixta]
+     esperado: 04-glosario-catalogo-y-clasificacion -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 04-glosario-catalogo-y-clasificacion, 09-procedimiento-clientes-de-fidelizacion, 06-politica-privacidad-datos-personales, 06-politica-privacidad-datos-personales, 11-procedimiento-maestro-de-sucursales
+  12. ¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola? [parafraseada]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 05-politica-seguridad-y-acceso, 07-procedimiento-maestro-de-proveedores, 09-procedimiento-clientes-de-fidelizacion, 05-politica-seguridad-y-acceso, 11-procedimiento-maestro-de-sucursales
+  13. Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles? [parafraseada]
+     esperado: 06-politica-privacidad-datos-personales -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 06-politica-privacidad-datos-personales, 01-politica-calidad-de-datos, 06-politica-privacidad-datos-personales, 09-procedimiento-clientes-de-fidelizacion, 08-procedimiento-gestion-de-incidentes
+  14. ¿Qué documento hay que entregar después de resolver una falla muy grave? [parafraseada]
+     esperado: 08-procedimiento-gestion-de-incidentes -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes, 01-politica-calidad-de-datos, 07-procedimiento-maestro-de-proveedores
+  15. ¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo? [parafraseada]
+     esperado: 11-procedimiento-maestro-de-sucursales -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 11-procedimiento-maestro-de-sucursales, 11-procedimiento-maestro-de-sucursales, 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos
+  16. ¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir? [parafraseada]
+     esperado: 02-roles-y-responsabilidades -> OK  (primer acierto en la posicion 2)  precision 0.40
+     recuperados: 12-roles-equipo-de-gobierno-de-datos, 02-roles-y-responsabilidades, 10-procedimiento-cambios-en-indicadores, 01-politica-calidad-de-datos, 02-roles-y-responsabilidades
+
+[hibrido]
+  1. ¿Qué es Depo360? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 13-glosario-sistemas-y-siglas, 03-procedimiento-maestro-de-articulos, 11-procedimiento-maestro-de-sucursales, 06-politica-privacidad-datos-personales, 13-glosario-sistemas-y-siglas
+  2. ¿Para qué se usa el formulario FA-07? [exacta]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 05-politica-seguridad-y-acceso, 11-procedimiento-maestro-de-sucursales, 04-glosario-catalogo-y-clasificacion, 03-procedimiento-maestro-de-articulos, 02-roles-y-responsabilidades
+  3. ¿Qué función cumple Calidata? [exacta]
+     esperado: 13-glosario-sistemas-y-siglas -> OK  (primer acierto en la posicion 2)  precision 0.20
+     recuperados: 02-roles-y-responsabilidades, 13-glosario-sistemas-y-siglas, 04-glosario-catalogo-y-clasificacion, 07-procedimiento-maestro-de-proveedores, 01-politica-calidad-de-datos
+  4. ¿Qué establece el procedimiento GD-PRO-006? [exacta]
+     esperado: 11-procedimiento-maestro-de-sucursales -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 11-procedimiento-maestro-de-sucursales, 08-procedimiento-gestion-de-incidentes, 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores, 09-procedimiento-clientes-de-fidelizacion
+  5. ¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU? [mixta]
+     esperado: 07-procedimiento-maestro-de-proveedores -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 09-procedimiento-clientes-de-fidelizacion, 13-glosario-sistemas-y-siglas
+  6. ¿Cuál es el plazo para responder un pedido de supresión de datos personales? [mixta]
+     esperado: 06-politica-privacidad-datos-personales -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 06-politica-privacidad-datos-personales, 06-politica-privacidad-datos-personales, 09-procedimiento-clientes-de-fidelizacion, 05-politica-seguridad-y-acceso, 06-politica-privacidad-datos-personales
+  7. ¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico? [mixta]
+     esperado: 10-procedimiento-cambios-en-indicadores -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 10-procedimiento-cambios-en-indicadores, 10-procedimiento-cambios-en-indicadores, 08-procedimiento-gestion-de-incidentes, 01-politica-calidad-de-datos, 06-politica-privacidad-datos-personales
+  8. ¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo? [mixta]
+     esperado: 09-procedimiento-clientes-de-fidelizacion -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 09-procedimiento-clientes-de-fidelizacion, 07-procedimiento-maestro-de-proveedores, 06-politica-privacidad-datos-personales, 09-procedimiento-clientes-de-fidelizacion, 03-procedimiento-maestro-de-articulos
+  9. ¿Cuál es el plazo máximo para resolver un incidente de severidad crítica? [mixta]
+     esperado: 01-politica-calidad-de-datos -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 01-politica-calidad-de-datos, 08-procedimiento-gestion-de-incidentes, 08-procedimiento-gestion-de-incidentes, 01-politica-calidad-de-datos, 02-roles-y-responsabilidades
+  10. ¿Cuánto dura el ciclo completo del alta de un artículo de marca propia? [mixta]
+     esperado: 03-procedimiento-maestro-de-articulos -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores
+  11. ¿Durante cuántos años se conservan los datos transaccionales de ventas? [mixta]
+     esperado: 04-glosario-catalogo-y-clasificacion -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 04-glosario-catalogo-y-clasificacion, 09-procedimiento-clientes-de-fidelizacion, 05-politica-seguridad-y-acceso, 04-glosario-catalogo-y-clasificacion, 01-politica-calidad-de-datos
+  12. ¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola? [parafraseada]
+     esperado: 05-politica-seguridad-y-acceso -> OK  (primer acierto en la posicion 1)  precision 0.20
+     recuperados: 05-politica-seguridad-y-acceso, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 09-procedimiento-clientes-de-fidelizacion
+  13. Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles? [parafraseada]
+     esperado: 06-politica-privacidad-datos-personales -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 06-politica-privacidad-datos-personales, 08-procedimiento-gestion-de-incidentes, 09-procedimiento-clientes-de-fidelizacion, 04-glosario-catalogo-y-clasificacion, 06-politica-privacidad-datos-personales
+  14. ¿Qué documento hay que entregar después de resolver una falla muy grave? [parafraseada]
+     esperado: 08-procedimiento-gestion-de-incidentes -> OK  (primer acierto en la posicion 1)  precision 0.60
+     recuperados: 08-procedimiento-gestion-de-incidentes, 06-politica-privacidad-datos-personales, 08-procedimiento-gestion-de-incidentes, 02-roles-y-responsabilidades, 08-procedimiento-gestion-de-incidentes
+  15. ¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo? [parafraseada]
+     esperado: 11-procedimiento-maestro-de-sucursales -> OK  (primer acierto en la posicion 5)  precision 0.20
+     recuperados: 03-procedimiento-maestro-de-articulos, 07-procedimiento-maestro-de-proveedores, 07-procedimiento-maestro-de-proveedores, 08-procedimiento-gestion-de-incidentes, 11-procedimiento-maestro-de-sucursales
+  16. ¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir? [parafraseada]
+     esperado: 02-roles-y-responsabilidades -> OK  (primer acierto en la posicion 1)  precision 0.40
+     recuperados: 02-roles-y-responsabilidades, 09-procedimiento-clientes-de-fidelizacion, 01-politica-calidad-de-datos, 10-procedimiento-cambios-en-indicadores, 02-roles-y-responsabilidades
+
+Mejor modo en esta corrida: vectorial (Recall@5 1.00, Precision@5 0.40)
+
+Resultados guardados en docs/evidencia/evaluacion.json

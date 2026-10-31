@@ -1,0 +1,6 @@
+
+Indice 'rag-gobierno-de-datos': ya existia (no se modifico)
+  Tipo ........ Serverless (aws, us-east-1)
+  Dimension ... 1536  (= dimension de gemini-embedding-001)
+  Metrica ..... cosine
+Siguiente paso: python ingest.py

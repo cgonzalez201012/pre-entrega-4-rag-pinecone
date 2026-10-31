@@ -1,0 +1,13 @@
+# Secretos
+.env
+
+# Entornos y caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Salidas de pruebas manuales (la evidencia que va al repo se guarda en docs/evidencia/)
+salida-*.txt
+.DS_Store

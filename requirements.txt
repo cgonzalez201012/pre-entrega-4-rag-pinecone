@@ -1,0 +1,15 @@
+# Pipeline de recuperacion
+langchain-core>=1.0
+langchain-text-splitters>=1.0
+langchain-classic>=1.0          # EnsembleRetriever (en LangChain 1.x ya no esta en el paquete `langchain`)
+langchain-community>=0.4        # BM25Retriever
+rank-bm25>=0.2.2                # motor de BM25 que usa BM25Retriever
+langchain-pinecone>=0.2         # PineconeVectorStore (busqueda vectorial)
+pinecone>=7.0                   # SDK nativo: indice serverless, upsert por lotes
+langchain-google-genai>=4.0     # embeddings gemini-embedding-001
+pypdf>=5.0                      # leer PDFs (con numero de pagina)
+tiktoken>=0.8                   # medir los fragmentos en tokens (no en caracteres)
+python-dotenv>=1.0
+
+# Solo para correr los tests (opcional)
+pytest>=8.0

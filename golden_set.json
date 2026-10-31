@@ -1,0 +1,82 @@
+[
+  {
+    "pregunta": "¿Qué es Depo360?",
+    "documento_id_esperado": "13-glosario-sistemas-y-siglas",
+    "tipo": "exacta"
+  },
+  {
+    "pregunta": "¿Para qué se usa el formulario FA-07?",
+    "documento_id_esperado": "05-politica-seguridad-y-acceso",
+    "tipo": "exacta"
+  },
+  {
+    "pregunta": "¿Qué función cumple Calidata?",
+    "documento_id_esperado": "13-glosario-sistemas-y-siglas",
+    "tipo": "exacta"
+  },
+  {
+    "pregunta": "¿Qué establece el procedimiento GD-PRO-006?",
+    "documento_id_esperado": "11-procedimiento-maestro-de-sucursales",
+    "tipo": "exacta"
+  },
+  {
+    "pregunta": "¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU?",
+    "documento_id_esperado": "07-procedimiento-maestro-de-proveedores",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Cuál es el plazo para responder un pedido de supresión de datos personales?",
+    "documento_id_esperado": "06-politica-privacidad-datos-personales",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico?",
+    "documento_id_esperado": "10-procedimiento-cambios-en-indicadores",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo?",
+    "documento_id_esperado": "09-procedimiento-clientes-de-fidelizacion",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Cuál es el plazo máximo para resolver un incidente de severidad crítica?",
+    "documento_id_esperado": "01-politica-calidad-de-datos",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Cuánto dura el ciclo completo del alta de un artículo de marca propia?",
+    "documento_id_esperado": "03-procedimiento-maestro-de-articulos",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Durante cuántos años se conservan los datos transaccionales de ventas?",
+    "documento_id_esperado": "04-glosario-catalogo-y-clasificacion",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola?",
+    "documento_id_esperado": "05-politica-seguridad-y-acceso",
+    "tipo": "parafraseada"
+  },
+  {
+    "pregunta": "Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles?",
+    "documento_id_esperado": "06-politica-privacidad-datos-personales",
+    "tipo": "parafraseada"
+  },
+  {
+    "pregunta": "¿Qué documento hay que entregar después de resolver una falla muy grave?",
+    "documento_id_esperado": "08-procedimiento-gestion-de-incidentes",
+    "tipo": "parafraseada"
+  },
+  {
+    "pregunta": "¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo?",
+    "documento_id_esperado": "11-procedimiento-maestro-de-sucursales",
+    "tipo": "parafraseada"
+  },
+  {
+    "pregunta": "¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir?",
+    "documento_id_esperado": "02-roles-y-responsabilidades",
+    "tipo": "parafraseada"
+  }
+]

@@ -1,0 +1,11 @@
+
+Ingesta completa: el namespace ya estaba al dia (no se escribio nada)
+  Archivos leidos ....... 13
+  Fragmentos vigentes ... 36
+  Nuevos (embebidos) .... 0  en 0 lote(s) de upsert
+  Sin cambios ........... 36
+  Eliminados ............ 0
+  Por categoria ......... {'politica': 10, 'roles': 5, 'procedimiento': 16, 'glosario': 5}
+  Tokens por fragmento .. min 87 / prom 435.7 / max 595
+  Medicion de tokens .... tiktoken/cl100k_base
+  Destino ............... indice 'rag-gobierno-de-datos', namespace 'mercado-austral'

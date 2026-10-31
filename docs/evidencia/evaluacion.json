@@ -1,0 +1,755 @@
+{
+  "k": 5,
+  "preguntas": 16,
+  "configuracion_hibrido": {
+    "pesos": [
+      0.5,
+      0.5
+    ],
+    "candidatos": 10
+  },
+  "modos": [
+    {
+      "modo": "bm25",
+      "k": 5,
+      "recall": 0.8125,
+      "precision": 0.2625,
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es Depo360?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "13-glosario-sistemas-y-siglas"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Para qué se usa el formulario FA-07?",
+          "tipo": "exacta",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "05-politica-seguridad-y-acceso",
+            "04-glosario-catalogo-y-clasificacion",
+            "02-roles-y-responsabilidades",
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué función cumple Calidata?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "13-glosario-sistemas-y-siglas",
+            "07-procedimiento-maestro-de-proveedores",
+            "05-politica-seguridad-y-acceso",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué establece el procedimiento GD-PRO-006?",
+          "tipo": "exacta",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "11-procedimiento-maestro-de-sucursales",
+            "06-politica-privacidad-datos-personales",
+            "08-procedimiento-gestion-de-incidentes",
+            "07-procedimiento-maestro-de-proveedores",
+            "03-procedimiento-maestro-de-articulos"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU?",
+          "tipo": "mixta",
+          "esperado": "07-procedimiento-maestro-de-proveedores",
+          "recuperados": [
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "05-politica-seguridad-y-acceso",
+            "09-procedimiento-clientes-de-fidelizacion"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo para responder un pedido de supresión de datos personales?",
+          "tipo": "mixta",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "06-politica-privacidad-datos-personales",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "06-politica-privacidad-datos-personales",
+            "05-politica-seguridad-y-acceso"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico?",
+          "tipo": "mixta",
+          "esperado": "10-procedimiento-cambios-en-indicadores",
+          "recuperados": [
+            "10-procedimiento-cambios-en-indicadores",
+            "10-procedimiento-cambios-en-indicadores",
+            "06-politica-privacidad-datos-personales",
+            "02-roles-y-responsabilidades",
+            "09-procedimiento-clientes-de-fidelizacion"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo?",
+          "tipo": "mixta",
+          "esperado": "09-procedimiento-clientes-de-fidelizacion",
+          "recuperados": [
+            "09-procedimiento-clientes-de-fidelizacion",
+            "07-procedimiento-maestro-de-proveedores",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "06-politica-privacidad-datos-personales",
+            "03-procedimiento-maestro-de-articulos"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo máximo para resolver un incidente de severidad crítica?",
+          "tipo": "mixta",
+          "esperado": "01-politica-calidad-de-datos",
+          "recuperados": [
+            "01-politica-calidad-de-datos",
+            "02-roles-y-responsabilidades",
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto dura el ciclo completo del alta de un artículo de marca propia?",
+          "tipo": "mixta",
+          "esperado": "03-procedimiento-maestro-de-articulos",
+          "recuperados": [
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Durante cuántos años se conservan los datos transaccionales de ventas?",
+          "tipo": "mixta",
+          "esperado": "04-glosario-catalogo-y-clasificacion",
+          "recuperados": [
+            "04-glosario-catalogo-y-clasificacion",
+            "01-politica-calidad-de-datos",
+            "13-glosario-sistemas-y-siglas",
+            "05-politica-seguridad-y-acceso",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola?",
+          "tipo": "parafraseada",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "07-procedimiento-maestro-de-proveedores",
+            "05-politica-seguridad-y-acceso",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "13-glosario-sistemas-y-siglas",
+            "08-procedimiento-gestion-de-incidentes"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 2
+        },
+        {
+          "pregunta": "Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles?",
+          "tipo": "parafraseada",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "01-politica-calidad-de-datos",
+            "04-glosario-catalogo-y-clasificacion",
+            "13-glosario-sistemas-y-siglas",
+            "08-procedimiento-gestion-de-incidentes",
+            "09-procedimiento-clientes-de-fidelizacion"
+          ],
+          "acierto": false,
+          "precision": 0.0,
+          "posicion_primer_acierto": null
+        },
+        {
+          "pregunta": "¿Qué documento hay que entregar después de resolver una falla muy grave?",
+          "tipo": "parafraseada",
+          "esperado": "08-procedimiento-gestion-de-incidentes",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "02-roles-y-responsabilidades",
+            "06-politica-privacidad-datos-personales",
+            "03-procedimiento-maestro-de-articulos",
+            "05-politica-seguridad-y-acceso"
+          ],
+          "acierto": false,
+          "precision": 0.0,
+          "posicion_primer_acierto": null
+        },
+        {
+          "pregunta": "¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo?",
+          "tipo": "parafraseada",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "08-procedimiento-gestion-de-incidentes",
+            "03-procedimiento-maestro-de-articulos",
+            "01-politica-calidad-de-datos",
+            "07-procedimiento-maestro-de-proveedores",
+            "05-politica-seguridad-y-acceso"
+          ],
+          "acierto": false,
+          "precision": 0.0,
+          "posicion_primer_acierto": null
+        },
+        {
+          "pregunta": "¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir?",
+          "tipo": "parafraseada",
+          "esperado": "02-roles-y-responsabilidades",
+          "recuperados": [
+            "02-roles-y-responsabilidades",
+            "05-politica-seguridad-y-acceso",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "06-politica-privacidad-datos-personales",
+            "07-procedimiento-maestro-de-proveedores"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        }
+      ],
+      "mrr": 0.78125
+    },
+    {
+      "modo": "vectorial",
+      "k": 5,
+      "recall": 1.0,
+      "precision": 0.4,
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es Depo360?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "13-glosario-sistemas-y-siglas",
+            "03-procedimiento-maestro-de-articulos",
+            "11-procedimiento-maestro-de-sucursales",
+            "06-politica-privacidad-datos-personales",
+            "13-glosario-sistemas-y-siglas"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Para qué se usa el formulario FA-07?",
+          "tipo": "exacta",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "05-politica-seguridad-y-acceso",
+            "03-procedimiento-maestro-de-articulos",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "07-procedimiento-maestro-de-proveedores",
+            "05-politica-seguridad-y-acceso"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué función cumple Calidata?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "04-glosario-catalogo-y-clasificacion",
+            "01-politica-calidad-de-datos",
+            "01-politica-calidad-de-datos",
+            "08-procedimiento-gestion-de-incidentes",
+            "13-glosario-sistemas-y-siglas"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 5
+        },
+        {
+          "pregunta": "¿Qué establece el procedimiento GD-PRO-006?",
+          "tipo": "exacta",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "11-procedimiento-maestro-de-sucursales",
+            "08-procedimiento-gestion-de-incidentes",
+            "03-procedimiento-maestro-de-articulos",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "10-procedimiento-cambios-en-indicadores"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU?",
+          "tipo": "mixta",
+          "esperado": "07-procedimiento-maestro-de-proveedores",
+          "recuperados": [
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "10-procedimiento-cambios-en-indicadores",
+            "11-procedimiento-maestro-de-sucursales"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo para responder un pedido de supresión de datos personales?",
+          "tipo": "mixta",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "06-politica-privacidad-datos-personales",
+            "01-politica-calidad-de-datos",
+            "04-glosario-catalogo-y-clasificacion",
+            "05-politica-seguridad-y-acceso"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico?",
+          "tipo": "mixta",
+          "esperado": "10-procedimiento-cambios-en-indicadores",
+          "recuperados": [
+            "10-procedimiento-cambios-en-indicadores",
+            "10-procedimiento-cambios-en-indicadores",
+            "11-procedimiento-maestro-de-sucursales",
+            "01-politica-calidad-de-datos",
+            "08-procedimiento-gestion-de-incidentes"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo?",
+          "tipo": "mixta",
+          "esperado": "09-procedimiento-clientes-de-fidelizacion",
+          "recuperados": [
+            "09-procedimiento-clientes-de-fidelizacion",
+            "06-politica-privacidad-datos-personales",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "07-procedimiento-maestro-de-proveedores",
+            "06-politica-privacidad-datos-personales"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo máximo para resolver un incidente de severidad crítica?",
+          "tipo": "mixta",
+          "esperado": "01-politica-calidad-de-datos",
+          "recuperados": [
+            "01-politica-calidad-de-datos",
+            "01-politica-calidad-de-datos",
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto dura el ciclo completo del alta de un artículo de marca propia?",
+          "tipo": "mixta",
+          "esperado": "03-procedimiento-maestro-de-articulos",
+          "recuperados": [
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Durante cuántos años se conservan los datos transaccionales de ventas?",
+          "tipo": "mixta",
+          "esperado": "04-glosario-catalogo-y-clasificacion",
+          "recuperados": [
+            "04-glosario-catalogo-y-clasificacion",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "06-politica-privacidad-datos-personales",
+            "06-politica-privacidad-datos-personales",
+            "11-procedimiento-maestro-de-sucursales"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola?",
+          "tipo": "parafraseada",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "05-politica-seguridad-y-acceso",
+            "07-procedimiento-maestro-de-proveedores",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "05-politica-seguridad-y-acceso",
+            "11-procedimiento-maestro-de-sucursales"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles?",
+          "tipo": "parafraseada",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "01-politica-calidad-de-datos",
+            "06-politica-privacidad-datos-personales",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "08-procedimiento-gestion-de-incidentes"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué documento hay que entregar después de resolver una falla muy grave?",
+          "tipo": "parafraseada",
+          "esperado": "08-procedimiento-gestion-de-incidentes",
+          "recuperados": [
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes",
+            "01-politica-calidad-de-datos",
+            "07-procedimiento-maestro-de-proveedores"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo?",
+          "tipo": "parafraseada",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "11-procedimiento-maestro-de-sucursales",
+            "11-procedimiento-maestro-de-sucursales",
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir?",
+          "tipo": "parafraseada",
+          "esperado": "02-roles-y-responsabilidades",
+          "recuperados": [
+            "12-roles-equipo-de-gobierno-de-datos",
+            "02-roles-y-responsabilidades",
+            "10-procedimiento-cambios-en-indicadores",
+            "01-politica-calidad-de-datos",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 2
+        }
+      ],
+      "mrr": 0.91875
+    },
+    {
+      "modo": "hibrido",
+      "k": 5,
+      "recall": 1.0,
+      "precision": 0.3875,
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es Depo360?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "13-glosario-sistemas-y-siglas",
+            "03-procedimiento-maestro-de-articulos",
+            "11-procedimiento-maestro-de-sucursales",
+            "06-politica-privacidad-datos-personales",
+            "13-glosario-sistemas-y-siglas"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Para qué se usa el formulario FA-07?",
+          "tipo": "exacta",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "05-politica-seguridad-y-acceso",
+            "11-procedimiento-maestro-de-sucursales",
+            "04-glosario-catalogo-y-clasificacion",
+            "03-procedimiento-maestro-de-articulos",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué función cumple Calidata?",
+          "tipo": "exacta",
+          "esperado": "13-glosario-sistemas-y-siglas",
+          "recuperados": [
+            "02-roles-y-responsabilidades",
+            "13-glosario-sistemas-y-siglas",
+            "04-glosario-catalogo-y-clasificacion",
+            "07-procedimiento-maestro-de-proveedores",
+            "01-politica-calidad-de-datos"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 2
+        },
+        {
+          "pregunta": "¿Qué establece el procedimiento GD-PRO-006?",
+          "tipo": "exacta",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "11-procedimiento-maestro-de-sucursales",
+            "08-procedimiento-gestion-de-incidentes",
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores",
+            "09-procedimiento-clientes-de-fidelizacion"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos días hábiles queda bloqueado el pago a un proveedor después de cambiar su CBU?",
+          "tipo": "mixta",
+          "esperado": "07-procedimiento-maestro-de-proveedores",
+          "recuperados": [
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "13-glosario-sistemas-y-siglas"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo para responder un pedido de supresión de datos personales?",
+          "tipo": "mixta",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "06-politica-privacidad-datos-personales",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "05-politica-seguridad-y-acceso",
+            "06-politica-privacidad-datos-personales"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Con cuántos días hábiles de anticipación hay que avisar a los usuarios antes de cambiar la fórmula de un indicador crítico?",
+          "tipo": "mixta",
+          "esperado": "10-procedimiento-cambios-en-indicadores",
+          "recuperados": [
+            "10-procedimiento-cambios-en-indicadores",
+            "10-procedimiento-cambios-en-indicadores",
+            "08-procedimiento-gestion-de-incidentes",
+            "01-politica-calidad-de-datos",
+            "06-politica-privacidad-datos-personales"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuántos meses sin compras hacen falta para que un cliente del Club Austral pase a estado Inactivo?",
+          "tipo": "mixta",
+          "esperado": "09-procedimiento-clientes-de-fidelizacion",
+          "recuperados": [
+            "09-procedimiento-clientes-de-fidelizacion",
+            "07-procedimiento-maestro-de-proveedores",
+            "06-politica-privacidad-datos-personales",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "03-procedimiento-maestro-de-articulos"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuál es el plazo máximo para resolver un incidente de severidad crítica?",
+          "tipo": "mixta",
+          "esperado": "01-politica-calidad-de-datos",
+          "recuperados": [
+            "01-politica-calidad-de-datos",
+            "08-procedimiento-gestion-de-incidentes",
+            "08-procedimiento-gestion-de-incidentes",
+            "01-politica-calidad-de-datos",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto dura el ciclo completo del alta de un artículo de marca propia?",
+          "tipo": "mixta",
+          "esperado": "03-procedimiento-maestro-de-articulos",
+          "recuperados": [
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Durante cuántos años se conservan los datos transaccionales de ventas?",
+          "tipo": "mixta",
+          "esperado": "04-glosario-catalogo-y-clasificacion",
+          "recuperados": [
+            "04-glosario-catalogo-y-clasificacion",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "05-politica-seguridad-y-acceso",
+            "04-glosario-catalogo-y-clasificacion",
+            "01-politica-calidad-de-datos"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Cuánto tiempo puede estar sin usarse una cuenta antes de que el sistema la bloquee sola?",
+          "tipo": "parafraseada",
+          "esperado": "05-politica-seguridad-y-acceso",
+          "recuperados": [
+            "05-politica-seguridad-y-acceso",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "09-procedimiento-clientes-de-fidelizacion"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "Si se filtran los datos de los clientes, ¿en cuánto tiempo hay que avisarles?",
+          "tipo": "parafraseada",
+          "esperado": "06-politica-privacidad-datos-personales",
+          "recuperados": [
+            "06-politica-privacidad-datos-personales",
+            "08-procedimiento-gestion-de-incidentes",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "04-glosario-catalogo-y-clasificacion",
+            "06-politica-privacidad-datos-personales"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Qué documento hay que entregar después de resolver una falla muy grave?",
+          "tipo": "parafraseada",
+          "esperado": "08-procedimiento-gestion-de-incidentes",
+          "recuperados": [
+            "08-procedimiento-gestion-de-incidentes",
+            "06-politica-privacidad-datos-personales",
+            "08-procedimiento-gestion-de-incidentes",
+            "02-roles-y-responsabilidades",
+            "08-procedimiento-gestion-de-incidentes"
+          ],
+          "acierto": true,
+          "precision": 0.6,
+          "posicion_primer_acierto": 1
+        },
+        {
+          "pregunta": "¿Con cuánta antelación hay que cargar un local nuevo antes de abrirlo?",
+          "tipo": "parafraseada",
+          "esperado": "11-procedimiento-maestro-de-sucursales",
+          "recuperados": [
+            "03-procedimiento-maestro-de-articulos",
+            "07-procedimiento-maestro-de-proveedores",
+            "07-procedimiento-maestro-de-proveedores",
+            "08-procedimiento-gestion-de-incidentes",
+            "11-procedimiento-maestro-de-sucursales"
+          ],
+          "acierto": true,
+          "precision": 0.2,
+          "posicion_primer_acierto": 5
+        },
+        {
+          "pregunta": "¿Cuántos miembros hacen falta para que el Comité pueda reunirse y decidir?",
+          "tipo": "parafraseada",
+          "esperado": "02-roles-y-responsabilidades",
+          "recuperados": [
+            "02-roles-y-responsabilidades",
+            "09-procedimiento-clientes-de-fidelizacion",
+            "01-politica-calidad-de-datos",
+            "10-procedimiento-cambios-en-indicadores",
+            "02-roles-y-responsabilidades"
+          ],
+          "acierto": true,
+          "precision": 0.4,
+          "posicion_primer_acierto": 1
+        }
+      ],
+      "mrr": 0.91875
+    }
+  ]
+}
